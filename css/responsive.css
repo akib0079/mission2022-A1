@@ -1,0 +1,235 @@
+/* Responsive Css File */
+
+.container{
+    max-width: 1400px;
+    padding: 0px 8px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+}
+
+.one_column{
+    width: 100%;
+    display: flex;
+}
+
+.two_column{
+    width: 50%;
+    display: flex;
+}
+
+.three_column{
+    width: 33.3333333333%;
+    display: flex;
+    overflow: hidden;
+}
+
+.four_column{
+    width: 25%;
+    display: flex;
+}
+
+.five_column{
+    width: 20%;
+    display: flex;
+}
+
+.six_column{
+    width: 16.6666666667%;
+    display: flex;
+}
+
+.image-fluid{
+    width: 100%;
+}
+
+.vertical-align-center{
+    align-items: center;
+}
+
+.vertical-align-top{
+    align-items: top;
+}
+
+.vertical-align-bottom{
+    align-items: end;
+}
+
+.center{
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* 
+    ##Device = Tablets, Ipads
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*
+
+    Responsive code Columns System for tablet devices
+
+    */
+    
+    .two_column{
+        width: 50%;
+        display: flex;
+    }
+    
+    .three_column{
+        width: 33.3333333333%;
+        display: flex;
+    }
+    
+    .four_column{
+        width: 25%;
+        display: flex;
+    }
+    
+    .five_column{
+        width: 20%;
+        display: flex;
+    }
+    
+    .six_column{
+        width: 16.6666666667%;
+        display: flex;
+    }
+
+    
+}
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /*
+
+    Responsive code Columns System for tablet devices
+
+    */
+    
+    .two_column{
+        width: 50%;
+        display: flex;
+    }
+    
+    .three_column{
+        width: 33.3333333333%;
+        display: flex;
+    }
+    
+    .four_column{
+        width: 25%;
+        display: flex;
+    }
+    
+    .five_column{
+        width: 20%;
+        display: flex;
+    }
+    
+    .six_column{
+        width: 16.6666666667%;
+        display: flex;
+    }
+    
+}
+  
+/* 
+    ##Device = Mobiles (start)
+*/
+  
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+    /*
+
+    Responsive code Columns System for Mobile devices Start here
+
+    */
+
+    .container{
+        display: block;
+    }
+
+    .container-fluid{
+        display: block;
+    }
+    
+    .two_column{
+        width: 100% !important;
+        display: flex;
+    }
+    
+    .three_column{
+        width: 100%;
+        display: flex;
+    }
+    
+    .four_column{
+        width: 100%;
+        display: flex;
+    }
+    
+    .five_column{
+        width: 100%;
+        display: flex;
+    }
+    
+    .six_column{
+        width: 100%;
+        display: flex;
+    }
+
+}
+  
+
+@media (max-width: 480px) {
+
+
+    /*
+
+    Responsive code Columns System for Mobile devices Start here
+
+    */
+
+    .container{
+        display: block;
+    }
+
+    .container-fluid{
+        display: block;
+    }
+    
+    .two_column{
+        width: 100% !important;
+        display: flex;
+    }
+    
+    .three_column{
+        width: 100%;
+        display: flex;
+    }
+    
+    .four_column{
+        width: 100%;
+        display: flex;
+    }
+    
+    .five_column{
+        width: 100%;
+        display: flex;
+    }
+    
+    .six_column{
+        width: 100%;
+        display: flex;
+    }
+
+
+}

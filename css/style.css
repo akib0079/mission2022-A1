@@ -1,0 +1,102 @@
+/* font import link */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+:root {
+    --primary-color: #333333;
+    --secondary-color: #8856D7;
+    --secondary-color1: #70568E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+}
+
+/* Css Start here */
+
+.hero{
+    min-height: 300px;
+}
+
+.hero-inner{
+    padding: 100px 20px 0px 0px ;
+}
+
+.hero-inner h1{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 80px;
+    color: var(--primary-color);
+    position: relative;
+    margin: 0 0px 10px 18px;
+}
+
+.hero-inner h1:before{
+    content: "";
+    width: 5px;
+    background: var(--secondary-color);
+    height: 80%;
+    margin-top: 2.5%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -18px;
+    border-radius: 5px;
+
+}
+
+.hero-inner h1 span{
+    color: var(--secondary-color1);
+}
+
+.hero-inner p{
+    margin-bottom: 20px;
+}
+
+.primary-btn{
+    background: var(--secondary-color);
+    border: none;
+    color: white;
+    padding: 16px 35px; 
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid var(--secondary-color);
+}
+
+.primary-btn:hover{
+    background-color: #7450af;
+    transition: 0.2s;
+}
+
+.primary-btn:hover a{
+    color: white;
+}
+
+.primary-btn a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.self-image{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.scroll-text{
+    margin-top: 35px;
+}
+
