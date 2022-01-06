@@ -186,6 +186,45 @@
         display: flex;
     }
 
+    .hero-inner {
+        padding: 30px 10px 0px 0px;
+    }
+    .hero-inner h1 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 54px;
+        color: var(--primary-color);
+        position: relative;
+        margin: 0 0px 10px 18px;
+    }
+
+    .self-image {
+        max-width: 90%;
+        margin-top: 0px !important;
+    }
+
+
+    .my-mission-header {
+        font-size: 35px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .box1,.box2,.box3{
+        margin: 10px !important;
+    }
+
+    .application {
+        padding: 15px;
+    }
+
+    .application-inner h2 {
+        font-size: 30px;
+        line-height: 41px;
+        color: var(--primary-color);
+    }
+
 }
   
 
