@@ -23,6 +23,9 @@ p{
     color: #3E3E3E;
 }
 
+section{
+    padding: 0px 10px;
+}
 /* Css Start here */
 
 .hero{
@@ -75,6 +78,7 @@ p{
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid var(--secondary-color);
+    z-index: 100;
 }
 
 .primary-btn:hover{
@@ -103,6 +107,7 @@ p{
 
 .my-mission{
     margin-bottom: 100px;
+    position: relative;
 }
 
 
@@ -119,12 +124,12 @@ p{
     padding: 30px 30px 30px 30px;
     background-color: #EDF5F6;
     border-radius: 26px;
-    margin: 0px 20px 0px 0px;
+    margin: 10px 20px 10px 0px;
 }
 
 .box1 img{
     max-width: 220px;
-    margin: 0 0 0 -20px;
+    margin: 10px 0 0 -20px;
 }
 
 .box1 h3{
@@ -138,7 +143,7 @@ p{
     padding: 30px 30px 30px 30px;
     background-color: #FFEEEE;
     border-radius: 26px;
-    margin: 0px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .box2 img{
@@ -157,7 +162,7 @@ p{
     padding: 30px 30px 30px 30px;
     background-color: #FFF4D6;
     border-radius: 26px;
-    margin: 0px 20px 0px 20px;
+    margin: 10px 20px 10px 20px;
 }
 
 .box3 img{
@@ -172,12 +177,28 @@ p{
     color: #000000;
 }
 
+.floating-shapes{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: auto;
+}
+
 .develop{
     background-image: url(../images/shapes/Ellipse\ 31.png);
     background-position: 6% 50%;
     background-repeat: no-repeat;
     margin-bottom: 80px;
     background-size: 18%;
+    position: relative;
+    z-index: 5;
+}
+
+.floating-shapes1{
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    z-index: 0;
 }
 
 .developImg{
@@ -198,3 +219,72 @@ p{
 .develop-inner p{
     margin: 25px 0px;
 }
+
+.community{
+    background-image: url(../images/shapes/Ellipse\ 34.png);
+    background-position: 95% 80%;
+    background-repeat: no-repeat;
+    margin: 30px 0px;
+    background-size: 18%;
+    position: relative;
+    z-index: 5;
+}
+
+.communityImg{
+    max-width: 580px;
+    margin-left: auto;
+}
+
+.community-inner{
+    padding: 20px 10px;
+    margin: 0px 0px 0px -20px;
+}
+
+.community-inner h2{
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--primary-color);
+}
+
+.community-inner p{
+    margin: 25px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0B0D17;
+    padding: 50px 0px;
+    margin: 100px 0px 0px 0px;
+}
+
+.footer-inner h3{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.footer-inner h3 span{
+    color: #B89CE5;
+}
+
+.footer-inner p{
+    color: #D9DBE1;
+    font-size: 14px;
+} 
