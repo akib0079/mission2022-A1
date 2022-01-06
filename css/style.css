@@ -27,10 +27,11 @@ p{
 
 .hero{
     min-height: 300px;
+    padding: 40px 0px 100px 0px;
 }
 
 .hero-inner{
-    padding: 100px 20px 0px 0px ;
+    padding: 150px 20px 0px 0px ;
 }
 
 .hero-inner h1{
@@ -92,11 +93,108 @@ p{
 }
 
 .self-image{
-    width: 100%;
-    margin: 20px 0px;
+    max-width: 90%;
+    margin-top: -40px !important;
 }
 
 .scroll-text{
     margin-top: 35px;
 }
 
+.my-mission{
+    margin-bottom: 100px;
+}
+
+
+.my-mission-header{
+    font-size: 48px;
+    padding-bottom: 40px ;
+}
+
+.my-mission-header span{
+    color: var(--secondary-color);
+}
+
+.box1{
+    padding: 30px 30px 30px 30px;
+    background-color: #EDF5F6;
+    border-radius: 26px;
+    margin: 0px 20px 0px 0px;
+}
+
+.box1 img{
+    max-width: 220px;
+    margin: 0 0 0 -20px;
+}
+
+.box1 h3{
+    font-size: 26px;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.box2{
+    padding: 30px 30px 30px 30px;
+    background-color: #FFEEEE;
+    border-radius: 26px;
+    margin: 0px 10px;
+}
+
+.box2 img{
+    max-width: 220px;
+    margin: 0 0 0 -20px;
+}
+
+.box2 h3{
+    font-size: 26px;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.box3{
+    padding: 30px 30px 30px 30px;
+    background-color: #FFF4D6;
+    border-radius: 26px;
+    margin: 0px 20px 0px 20px;
+}
+
+.box3 img{
+    max-width: 220px;
+    margin: 0 0 0 -20px;
+}
+
+.box3 h3{
+    font-size: 26px;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.develop{
+    background-image: url(../images/shapes/Ellipse\ 31.png);
+    background-position: 6% 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    background-size: 18%;
+}
+
+.developImg{
+    max-width: 580px;
+}
+
+.develop-inner{
+    padding: 20px 10px;
+    margin: 0px 0px 0px -20px;
+}
+
+.develop-inner h2{
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--primary-color);
+}
+
+.develop-inner p{
+    margin: 25px 0px;
+}
